@@ -2,7 +2,7 @@ The given merkle tree based data integrity check application can detect differen
 
 You must be these provided directories A and B to find which files are different.
 
-I. Complete the ```def print_tree(self, hash):``` function to print all files under a given directory along with hash value in the front of each node. (15 points)
+the ```def print_tree(self, hash):``` function to print all files under a given directory along with hash value in the front of each node.
 
 _Directory structure_
 
@@ -55,7 +55,7 @@ e4069a89d02170a56e27daaa6ea81859 file2.txt
 c97336b6e52347826f8c7b0168049909 file4.txt
 ```
 
-II. Complete the ```def find_diff(merkle_tree_a, a_roothash, merkle_tree_b, b_roothash):``` function to find differences between the given two Merkle trees. (15 points)
+The ```def find_diff(merkle_tree_a, a_roothash, merkle_tree_b, b_roothash):``` function to find differences between the given two Merkle trees. 
 
 > Hint: both ```find_diff``` and ```print_tree``` functions require to recursively call its own function to handle child nodes (hash -> dir/file).
 
